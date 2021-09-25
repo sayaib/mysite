@@ -3,13 +3,14 @@
 } */
 
 #title {
-    color: #64FFDA;
+    color: #FF6B6B;
+    letter-spacing: 2px;
     font-size: 1.6rem;
 }
 
 .rc_nav {
     overflow: hidden;
-    background-color: #000000;
+    background-color: #ffffff;
     text-align: center;
     position: fixed;
     width: 100%;
@@ -18,9 +19,10 @@
 }
 
 .nav_link {
+    letter-spacing: 1px;
     margin: 0 5px;
     display: inline-block;
-    color: #fff;
+    color: rgb(51, 51, 51);
     padding: 10px 22px;
     text-decoration: none;
     font-size: 18px;
@@ -39,25 +41,24 @@
 
 @media screen and (max-width: 600px) {
     .nav_link {
-        padding: 10px 10px;
+        padding: 7px 10px;
         font-size: 0.7rem;
     }
 
     #title {
-        color: #64FFDA;
         font-size: 1.5rem;
     }
 
 }
 
 .active_class {
-    background-color: #0A192F;
+    background-color: #F3F1F5;
     color: #A4AFCD;
     border-radius: 10px 10px 0 0;
 }
 
 #webpage {
-    background-color: #0A192F;
+    background-color: #F3F1F5;
     height: 100vh;
     width: 100vw;
 }

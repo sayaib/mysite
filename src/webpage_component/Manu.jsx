@@ -9,7 +9,7 @@ const Manu = () => {
     <>
     
       <div className="rc_nav" id="centered_nav">
-      <h1 id="title">Sayaib Sarkar</h1>
+      <h1 id="title">SAYAIB SARKAR</h1>
         
         <NavLink exact activeClassName="active_class" className="nav_link" to="/">
           Home
