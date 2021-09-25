@@ -3,7 +3,7 @@
 } */
 
 #title {
-    color: #14ff0b;
+    color: #ff0bb6;
     letter-spacing: 2px;
     font-size: 1.6rem;
 }
@@ -61,6 +61,10 @@
     background-color: #F3F1F5;
     height: 100vh;
     width: 100vw;
+}
+#webpage_body{
+    margin: auto;
+    width: 80%;
 }
 
 .error_page {
