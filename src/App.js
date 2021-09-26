@@ -7,14 +7,14 @@ import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 
 import Home from './webpage_component/Home'
-import Codes from './webpage_component/Codes'
+import Articles from './webpage_component/Articles'
 import Portfolio from './webpage_component/Portfolio'
 import Contact from './webpage_component/Contact'
 import Error from './webpage_component/Error'
 
 function App() {
   AOS.init({
-    duration: 2000,
+    duration: 1500,
   });
   return (
     <>
@@ -24,7 +24,7 @@ function App() {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/portfolio" component={Portfolio} />
-          <Route exact path="/codes" component={Codes} />
+          <Route exact path="/Articles" component={Articles} />
           <Route exact path="/contact" component={Contact} />
           <Route component={Error} />
         </Switch>

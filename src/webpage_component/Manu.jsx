@@ -6,14 +6,12 @@ const Manu = () => {
   return (
     <>
       <div className="rc_nav" id="centered_nav">
-        <h1
-          id="title"
-          data-aos="zoom-in"
-        >
-          SAYAIB SARKAR
+        <h1 id="title" data-aos="fade-down" className="pt-1">
+          Sayaib Sarkar
         </h1>
 
         <NavLink
+          data-aos="zoom-in"
           exact
           activeClassName="active_class"
           className="nav_link"
@@ -22,6 +20,7 @@ const Manu = () => {
           Home
         </NavLink>
         <NavLink
+          data-aos="zoom-in"
           exact
           activeClassName="active_class"
           className="nav_link"
@@ -30,14 +29,16 @@ const Manu = () => {
           Portfolio
         </NavLink>
         <NavLink
+          data-aos="zoom-in"
           exact
           activeClassName="active_class"
           className="nav_link"
-          to="/codes"
+          to="/Articles"
         >
-          Codes
+          Articles
         </NavLink>
         <NavLink
+          data-aos="zoom-in"
           exact
           activeClassName="active_class"
           className="nav_link"
