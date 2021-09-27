@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Noto+Sans&display=swap');
 
 #title {
-    color: #f15f25;
+    color: #ffffff;
     letter-spacing: 2px;
     font-size: 1.6rem;
     font-family: 'Fredoka One', cursive;
@@ -9,7 +9,7 @@
 
 .rc_nav {
     overflow: hidden;
-    background-color: #ffffff;
+    background-color: #393E46;
     text-align: center;
     position: fixed;
     width: 100%;
@@ -21,8 +21,8 @@
     letter-spacing: 1px;
     margin: 0 5px;
     display: inline-block;
-    color: rgb(51, 51, 51);
-    padding: 10px 22px;
+    color: #EEEEEE;
+    padding: 1px 22px;
     text-decoration: none;
     font-size: 18px;
     -webkit-transition: background 0.3s linear;
@@ -35,30 +35,37 @@
 }
 
 .nav_link:hover {
+    color: #afb9b7;
+    text-decoration: none;
     transition: 0.7;
 }
 
 @media screen and (max-width: 600px) {
     .nav_link {
-        padding: 7px 10px;
-        font-size: 0.7rem;
+        padding: 5px 15px;
+        font-size: 1rem;
     }
 
     #title {
         font-size: 1.5rem;
     }
 
+    .nav_link:hover {
+        color: #64FFDA;
+    }
+
 }
 
 .active_class {
-    background-color: #F3F1F5;
-    color: #A4AFCD;
+    background-color: #0A192F;
+    color: #64FFDA;
     border-radius: 10px 10px 0 0;
 }
 
 #webpage {
     font-family: 'Noto Sans', sans-serif;
-    background-color: #F3F1F5;
+    background-color: #0A192F;
+    color: aliceblue;
     height: 100vh;
     width: 100vw;
 }
@@ -90,19 +97,19 @@
     text-align: center;
     padding: 16px;
     transition: all 0.3s ease;
-    color: #000;
+    color: aliceblue;
     font-size: 20px;
 }
 
 .icon-bar a:hover {
-    color: #ff0bb6;
+    color: #64FFDA;
 }
 
 /* Portfolio Section */
 #portfolio_webpage {
     font-family: 'Noto Sans', sans-serif;
     padding-top: 8rem;
-    background-color: #F3F1F5;
+    background-color: #0A192F;
 }
 
 .portfolio_body {
@@ -116,8 +123,8 @@
 
 .portfolio_card {
     margin: 1rem;
-    width: 30%;
-    height: 400px;
+    width: 28%;
+    height: 350px;
     border: 1px solid #ccc;
     margin-bottom: 50px;
     text-align: center;
@@ -138,6 +145,10 @@
         width: 80%;
         margin: 0.9rem;
         height: 350px;
+    }
+
+    h6 {
+        display: none;
     }
 
     .title {

@@ -1,6 +1,13 @@
 import React from "react";
 import "./style.css";
 import { NavLink } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faHome,
+  faPhone,
+  faPen,
+  faSuitcase,
+} from "@fortawesome/free-solid-svg-icons";
 
 const Manu = () => {
   return (
@@ -17,7 +24,8 @@ const Manu = () => {
           className="nav_link"
           to="/"
         >
-          Home
+          <FontAwesomeIcon icon={faHome} />
+          <h6>Home</h6>
         </NavLink>
         <NavLink
           data-aos="zoom-in"
@@ -26,7 +34,8 @@ const Manu = () => {
           className="nav_link"
           to="/portfolio"
         >
-          Portfolio
+          <FontAwesomeIcon icon={faSuitcase} />
+          <h6>Portfolio</h6>
         </NavLink>
         <NavLink
           data-aos="zoom-in"
@@ -35,7 +44,8 @@ const Manu = () => {
           className="nav_link"
           to="/Articles"
         >
-          Articles
+          <FontAwesomeIcon icon={faPen} />
+          <h6> Articles</h6>
         </NavLink>
         <NavLink
           data-aos="zoom-in"
@@ -44,7 +54,8 @@ const Manu = () => {
           className="nav_link"
           to="/contact"
         >
-          Contact
+          <FontAwesomeIcon icon={faPhone} />
+          <h6>Contact</h6>
         </NavLink>
       </div>
     </>

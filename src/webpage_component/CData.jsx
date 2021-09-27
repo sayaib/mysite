@@ -19,12 +19,21 @@ const CData = [
   },
   {
     id: 3,
-    name: "Covid-19 india",
-    githubLink: "https://github.com/sayaib/covid19india",
-    websiteLink: "https://coronadataindia.netlify.app/",
-    subtitle: "Coronavirus Data Statewise",
+    name: "Photographer Website",
+    githubLink: "https://github.com/sayaib/Photographer-Website",
+    websiteLink: "https://subhajyotihaldar.github.io/",
+    subtitle: "A professional photographer website",
     about:
-      "On this site, we can get to know the corona cases of all the states of India. It is created by HTML, CSS, Bootstrap, Javascript and APIs",
+      "Website created with HTML, CSS, Javascript, and Bootstrap the website contains some amazing animation and effects.",
+  },
+  {
+    id: 4,
+    name: "Common Service Center",
+    githubLink: "https://github.com/sayaib/csc",
+    websiteLink: "https://sayaib.github.io/csc/",
+    subtitle: "A common service center website.",
+    about:
+      "It's a fully responsive card view design contain media query and view ports Build with HTML, CSS and Bootstrap only.",
   },
 ];
 export default CData;

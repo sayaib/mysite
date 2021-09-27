@@ -15,7 +15,9 @@ const Home = () => {
         <div id="webpage_body">
           <Container className="home_container">
             <p>Hi, my name is</p>
-            <h1>Sayaib Sarkar</h1>
+            <h1 className="pb-3" style={{ color: "#64FFDA" }}>
+              Sayaib Sarkar
+            </h1>
             <h1>I build things for the web.</h1>
             <p>
               I’m a software engineer specializing in building (and occasionally
