@@ -20,7 +20,10 @@ const Portfolio = () => {
   return (
     <>
       <div id="portfolio_webpage">
-        <h1 data-aos="fade-down" style={{ paddingBottom: "1rem", textAlign: "center" }}>
+        <h1
+          data-aos="fade-down"
+          style={{ paddingBottom: "1rem", textAlign: "center", color: "#fff" }}
+        >
           Some Things I've Built
         </h1>
         <div className="portfolio_body">{CData.map(data)}</div>

@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 #title {
-    color: #ffffff;
     letter-spacing: 2px;
     font-size: 1.6rem;
+    color: #FD2155;
     font-family: 'Fredoka One', cursive;
 }
 
@@ -42,8 +43,8 @@
 
 @media screen and (max-width: 600px) {
     .nav_link {
-        padding: 5px 15px;
-        font-size: 1rem;
+        padding: 5px 20px;
+        font-size: 1.1rem;
     }
 
     #title {
@@ -57,14 +58,14 @@
 }
 
 .active_class {
-    background-color: #0A192F;
+    background-color: #1D1D1D;
     color: #64FFDA;
     border-radius: 10px 10px 0 0;
 }
 
 #webpage {
     font-family: 'Noto Sans', sans-serif;
-    background-color: #0A192F;
+    background-color: #1D1D1D;
     color: aliceblue;
     height: 100vh;
     width: 100vw;
@@ -73,7 +74,7 @@
 #webpage_body {
     padding-top: 8rem;
     margin: auto;
-    width: 75%;
+    width: 70%;
 }
 
 .error_page {
@@ -82,11 +83,26 @@
 
 /* Home Page Body Section */
 
+.home_page_text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 80px;
+    font-weight: bolder;
+}
+
+@media screen and (max-width:620px) {
+    .home_container {
+        padding-top: 8rem;
+    }
+
+    .home_page_text {
+        font-size: 1.5rem;
+    }
+}
 
 /* Social Media Section */
 .icon-bar {
     position: fixed;
-    top: 60%;
+    top: 50%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
@@ -109,7 +125,7 @@
 #portfolio_webpage {
     font-family: 'Noto Sans', sans-serif;
     padding-top: 8rem;
-    background-color: #0A192F;
+    background-color: #1D1D1D;
 }
 
 .portfolio_body {
@@ -126,8 +142,11 @@
     width: 28%;
     height: 350px;
     border: 1px solid #ccc;
+    background-color: aqua;
     margin-bottom: 50px;
     text-align: center;
+    padding: 10px;
+    border-radius: 15px;
 }
 
 

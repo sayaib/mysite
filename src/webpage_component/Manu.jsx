@@ -5,8 +5,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faHome,
   faPhone,
-  faPen,
   faSuitcase,
+  faBrain,
 } from "@fortawesome/free-solid-svg-icons";
 
 const Manu = () => {
@@ -35,7 +35,7 @@ const Manu = () => {
           to="/portfolio"
         >
           <FontAwesomeIcon icon={faSuitcase} />
-          <h6>Portfolio</h6>
+          <h6>Work</h6>
         </NavLink>
         <NavLink
           data-aos="zoom-in"
@@ -44,8 +44,8 @@ const Manu = () => {
           className="nav_link"
           to="/Articles"
         >
-          <FontAwesomeIcon icon={faPen} />
-          <h6> Articles</h6>
+          <FontAwesomeIcon icon={faBrain} />
+          <h6>My Skills</h6>
         </NavLink>
         <NavLink
           data-aos="zoom-in"
