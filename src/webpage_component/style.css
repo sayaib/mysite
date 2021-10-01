@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Noto+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Redressed&display=swap');
 
 #title {
     letter-spacing: 2px;
     font-size: 1.6rem;
-    color: #FD2155;
-    font-family: 'Fredoka One', cursive;
+    color: #64FFDA;
+    font-family: 'Redressed', cursive;
 }
 
 .rc_nav {
@@ -84,9 +85,20 @@
 /* Home Page Body Section */
 
 .home_page_text {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Archivo Black', sans-serif;
+    letter-spacing: 2px;
     font-size: 80px;
-    font-weight: bolder;
+}
+.homepage_btn{
+    background-color: #1D1D1D;
+    border: 1px solid #64FFDA;
+    color: #64FFDA;
+    font-size: 0.8rem;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+.homepage_btn:hover{
+    background-color: #3332329c;
 }
 
 @media screen and (max-width:620px) {

@@ -14,23 +14,20 @@ const Home = () => {
       <div id="webpage">
         <div id="webpage_body">
           <Container className="home_container">
-            <h1 className="home_page_text" data-aos="fade-left">
+            <h1 className="home_page_text" data-aos="fade-down">
               Hi,
             </h1>
-            <h1 className="home_page_text" data-aos="fade-left">
+            <h1 className="home_page_text" data-aos="fade-down">
               I'm Sayaib
             </h1>
-            <h1 className="home_page_text" data-aos="fade-left">
+            <h1 className="home_page_text" data-aos="fade-down">
               web developer
             </h1>
+            <h5 data-aos="fade-up" >I build things for the web.</h5>
 
-            <Button
-              className="mt-4"
-              variant="outline-danger"
-              data-aos="fade-left"
-            >
-              Check out my resume
-            </Button>
+         <a href="" >
+           <button data-aos="fade-up" className="homepage_btn mt-3">Check out my resume!</button>
+         </a>
           </Container>
         </div>
         <div>
