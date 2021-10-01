@@ -6,7 +6,7 @@ import {
   faGithub,
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
-import { Container, Button } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 
 const Home = () => {
   return (
@@ -23,11 +23,13 @@ const Home = () => {
             <h1 className="home_page_text" data-aos="fade-down">
               web developer
             </h1>
-            <h5 data-aos="fade-up" >I build things for the web.</h5>
+            <h5 data-aos="fade-up">I build things for the web.</h5>
 
-         <a href="" >
-           <button data-aos="fade-up" className="homepage_btn mt-3">Check out my resume!</button>
-         </a>
+            <a href="">
+              <button data-aos="fade-up" className="homepage_btn mt-3">
+                Check out my resume!
+              </button>
+            </a>
           </Container>
         </div>
         <div>

@@ -10,14 +10,12 @@ const Cards = (props) => {
   return (
     <>
       <div className="portfolio_card" data-aos="fade-up">
-        <h1
-          style={{ fontSize: "5rem", textAlign: "left", paddingLeft: "1rem" }}
-        >
+        <h1 className="card_folder">
           <FontAwesomeIcon icon={faFolder} />
         </h1>
         <h3>
           <a
-            style={{ padding: "0.5rem" }}
+            className="card_links"
             target="_blank"
             rel="noreferrer"
             href={props.githubLink}
@@ -25,7 +23,7 @@ const Cards = (props) => {
             <FontAwesomeIcon icon={faGithub} />
           </a>
           <a
-            style={{ padding: "0.5rem" }}
+            className="card_links"
             target="_blank"
             rel="noreferrer"
             href={props.websiteLink}
@@ -36,8 +34,8 @@ const Cards = (props) => {
 
         <div>
           <Card.Title>{props.name}</Card.Title>
-          <p>{props.subtitle}</p>
-          <Card.Text>{props.about}</Card.Text>
+          <p style={{fontSize:"0.9rem"}}>{props.subtitle}</p>
+          <Card.Text style={{fontSize:"0.9rem"}}>{props.about}</Card.Text>
         </div>
       </div>
     </>

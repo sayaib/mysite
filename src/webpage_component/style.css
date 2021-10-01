@@ -89,7 +89,8 @@
     letter-spacing: 2px;
     font-size: 80px;
 }
-.homepage_btn{
+
+.homepage_btn {
     background-color: #1D1D1D;
     border: 1px solid #64FFDA;
     color: #64FFDA;
@@ -97,13 +98,14 @@
     padding: 15px 30px;
     border-radius: 5px;
 }
-.homepage_btn:hover{
+
+.homepage_btn:hover {
     background-color: #3332329c;
 }
 
 @media screen and (max-width:620px) {
     .home_container {
-        padding-top: 8rem;
+        padding-top: 6rem;
     }
 
     .home_page_text {
@@ -141,7 +143,7 @@
 }
 
 .portfolio_body {
-    width: 90%;
+    width: 80%;
     margin: auto;
     display: flex;
     flex-direction: row;
@@ -150,15 +152,35 @@
 }
 
 .portfolio_card {
-    margin: 1rem;
+    margin: 2rem 0;
     width: 28%;
-    height: 350px;
-    border: 1px solid #ccc;
-    background-color: aqua;
+    height: 320px;
+    color: aliceblue;
+    background-color: #3332329c;
     margin-bottom: 50px;
     text-align: center;
     padding: 10px;
-    border-radius: 15px;
+    border-radius: 5px;
+}
+
+.card_folder {
+    font-size: 3rem;
+    text-align: left;
+    padding-left: 1rem;
+    text-shadow: #64FFDA;
+}
+
+.card_links {
+    color: #64FFDA;
+    padding: 0.6rem;
+    transition: 0.3s;
+
+}
+
+.card_links:hover {
+    color: #64ffdb83;
+    font-size: 2rem;
+
 }
 
 
