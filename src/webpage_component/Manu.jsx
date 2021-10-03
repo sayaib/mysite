@@ -32,7 +32,7 @@ const Manu = () => {
           exact
           activeClassName="active_class"
           className="nav_link"
-          to="/portfolio"
+          to="/work"
         >
           <FontAwesomeIcon icon={faSuitcase} />
           <h6>Work</h6>
@@ -42,7 +42,7 @@ const Manu = () => {
           exact
           activeClassName="active_class"
           className="nav_link"
-          to="/Articles"
+          to="/skills"
         >
           <FontAwesomeIcon icon={faBrain} />
           <h6>My Skills</h6>

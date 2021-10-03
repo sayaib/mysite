@@ -113,6 +113,25 @@
     }
 }
 
+/* Footer Section */
+.footer_section{
+    width: 100%;
+    background-color: #393E46;
+    padding: 2rem 0;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer_icon{
+    font-size: 1.5rem;
+    color: aliceblue;
+}
+.footer_icon:hover{
+    color: #64FFDA;
+}
+
+
+
 /* Social Media Section */
 .icon-bar {
     position: fixed;
