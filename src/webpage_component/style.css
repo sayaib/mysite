@@ -239,11 +239,12 @@
 
 }
 
- 
- /* My Skill section */
+
+/* My Skill section */
 
 
 .skill_body {
+    font-family: 'Noto Sans', sans-serif;
     padding-top: 8rem;
     color: aliceblue;
     background: #1D1D1D;
