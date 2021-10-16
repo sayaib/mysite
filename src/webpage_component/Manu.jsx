@@ -18,7 +18,6 @@ const Manu = () => {
         </h1>
 
         <NavLink
-          data-aos="zoom-in"
           exact
           activeClassName="active_class"
           className="nav_link"
@@ -28,7 +27,6 @@ const Manu = () => {
           <h6>Home</h6>
         </NavLink>
         <NavLink
-          data-aos="zoom-in"
           exact
           activeClassName="active_class"
           className="nav_link"
@@ -38,7 +36,6 @@ const Manu = () => {
           <h6>Work</h6>
         </NavLink>
         <NavLink
-          data-aos="zoom-in"
           exact
           activeClassName="active_class"
           className="nav_link"
@@ -48,7 +45,6 @@ const Manu = () => {
           <h6>My Skills</h6>
         </NavLink>
         <NavLink
-          data-aos="zoom-in"
           exact
           activeClassName="active_class"
           className="nav_link"

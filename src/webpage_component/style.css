@@ -117,7 +117,7 @@
 .footer_section {
     width: 100%;
     background-color: #393E46;
-    padding: 2rem 0;
+    padding: 1.5rem 0;
     display: inline-flex;
     justify-content: space-around;
     align-items: center;
@@ -278,16 +278,16 @@
 }
 
 .skillDiv {
-    height: 10px;
+    height: 8px;
     width: 100%;
-    border-radius: 5px;
+    border-radius: 2px;
     background-color: gray;
 }
 
 .skillBar {
     display: block;
-    height: 10px;
-    border-radius: 5px;
+    height: 8px;
+    border-radius: 2px;
     background-color: #64FFDA;
 }
 
