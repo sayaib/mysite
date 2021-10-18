@@ -4,7 +4,7 @@ import AOS from "aos";
 import "../node_modules/aos/dist/aos.css";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css"
 
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { BrowserRouter,MemoryRouter, Route, Switch } from "react-router-dom";
 
 import Home from './webpage_component/Home'
 import Skills from './webpage_component/Skills'
@@ -19,7 +19,7 @@ function App() {
   return (
     <>
 
-      <BrowserRouter>
+      <MemoryRouter>
         <Manu />
         <Switch>
           <Route exact path="/" component={Home} />
@@ -28,7 +28,7 @@ function App() {
           <Route exact path="/contact" component={Contact} />
           <Route component={Error} />
         </Switch>
-      </BrowserRouter>
+      </MemoryRouter>
     </>
   );
 }
