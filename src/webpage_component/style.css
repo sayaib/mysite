@@ -330,10 +330,12 @@
     width: 55%;
     animation: node 3s forwards;
 }
-.MongoBar{
+
+.MongoBar {
     width: 65%;
     animation: mongo 3s forwards;
 }
+
 .sqlBar {
     width: 85%;
     animation: sql 3s forwards;
@@ -408,6 +410,7 @@
         width: 55%;
     }
 }
+
 @keyframes mongo {
     0% {
         width: 0%;
@@ -417,6 +420,7 @@
         width: 65%;
     }
 }
+
 @keyframes sql {
     0% {
         width: 0%;
@@ -425,4 +429,23 @@
     100% {
         width: 85%;
     }
+}
+
+/* Contact Page */
+#contact_webpage {
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #1D1D1D;
+    color: aliceblue;
+    height: 100%;
+    width: 100vw;
+    padding-bottom: 1rem;
+}
+
+.contact_heading {
+    text-align: center;
+}
+
+.contact_subline {
+    text-align: center;
+    padding-bottom: 1rem;
 }

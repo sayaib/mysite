@@ -29,9 +29,12 @@ const Contact = () => {
   }
   return (
     <>
-      <div id="webpage">
+      <div id="contact_webpage">
         <div id="webpage_body">
           <div className="container">
+            <h1 className="contact_heading">Contact</h1>
+            <p className="contact_subline">For all enquiries, please email me using the form below.</p>
+            <h3 className="form_upline">How can I help you?</h3>
             <Form onSubmit={sendEmail}>
               <Form.Group className="mb-3" controlId="formBasicEmail">
                 <Form.Label>Name</Form.Label>
