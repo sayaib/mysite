@@ -22,7 +22,7 @@ const Skills = () => {
           <div className="cssProg ProgWidth">
             <div className="p">
               <p>CSS</p>
-              <p>70%</p>
+              <p>90%</p>
             </div>
             <div className="pp">
               <div className="skillDiv">
@@ -81,7 +81,7 @@ const Skills = () => {
             </div>
             <div className="pp">
               <div className="skillDiv">
-                <span className="skillBar sqlBar"></span>
+                <span className="skillBar MongoBar"></span>
               </div>
             </div>
           </div>

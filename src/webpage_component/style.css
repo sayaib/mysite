@@ -302,7 +302,7 @@
 }
 
 .cssBar {
-    width: 70%;
+    width: 90%;
     animation: css 3s forwards;
 }
 
@@ -330,7 +330,10 @@
     width: 55%;
     animation: node 3s forwards;
 }
-
+.MongoBar{
+    width: 65%;
+    animation: mongo 3s forwards;
+}
 .sqlBar {
     width: 85%;
     animation: sql 3s forwards;
@@ -352,7 +355,7 @@
     }
 
     100% {
-        width: 70%;
+        width: 90%;
     }
 }
 
@@ -405,7 +408,15 @@
         width: 55%;
     }
 }
+@keyframes mongo {
+    0% {
+        width: 0%;
+    }
 
+    100% {
+        width: 65%;
+    }
+}
 @keyframes sql {
     0% {
         width: 0%;
