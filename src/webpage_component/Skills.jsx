@@ -52,21 +52,10 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className="c/c++Prog ProgWidth">
-            <div className="p">
-              <p>C/C++</p>
-              <p>80%</p>
-            </div>
-            <div className="pp">
-              <div className="skillDiv">
-                <span className="skillBar ccpBar"></span>
-              </div>
-            </div>
-          </div>
           <div className="reactProg ProgWidth">
             <div className="p">
               <p>React</p>
-              <p>70%</p>
+              <p>80%</p>
             </div>
             <div className="pp">
               <div className="skillDiv">
@@ -77,11 +66,22 @@ const Skills = () => {
           <div className="nodeProg ProgWidth">
             <div className="p">
               <p>Node.js</p>
-              <p>35%</p>
+              <p>55%</p>
             </div>
             <div className="pp">
               <div className="skillDiv">
                 <span className="skillBar nodeBar"></span>
+              </div>
+            </div>
+          </div>
+          <div className="sqlProg ProgWidth">
+            <div className="p">
+              <p>MongoDB</p>
+              <p>65%</p>
+            </div>
+            <div className="pp">
+              <div className="skillDiv">
+                <span className="skillBar sqlBar"></span>
               </div>
             </div>
           </div>
